@@ -34,6 +34,12 @@ Suite (bMS).
 - Windows.
 - baramundi Management Suite, to import what you export.
 
+What each feature needs, and which hosts to allow in a restricted network: [Requirements](docs/REQUIREMENTS.md).
+
+## Questions
+
+See the [FAQ](docs/FAQ.md).
+
 ## Source code
 
 The source code will follow, under the Apache License 2.0.
