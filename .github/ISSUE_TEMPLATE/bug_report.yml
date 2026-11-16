@@ -1,0 +1,53 @@
+name: Bug report
+description: Something does not work, or works differently than you expect.
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for the report. Action Composer is a community project, so there is no guaranteed response time.
+
+        **Do not paste secrets.** Remove API keys, passwords, tokens, server names, host names, IP addresses and user names from everything you write or attach. Replace them with a placeholder such as `<server>`.
+
+        **A security problem is not an issue.** Report it privately instead (see the link on the issue chooser, or SECURITY.md).
+  - type: input
+    id: version
+    attributes:
+      label: Action Composer version
+      description: Shown in the header of the app.
+      placeholder: "0.19.99"
+    validations:
+      required: true
+  - type: input
+    id: bms
+    attributes:
+      label: baramundi Management Suite version
+      description: Only if the problem involves an import, an export or a connection to bMS.
+      placeholder: "2026 R2"
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What you did, what you saw, and what you expected instead.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Numbered steps that lead to the problem, starting from a fresh script if you can.
+      placeholder: |
+        1. ...
+        2. ...
+  - type: textarea
+    id: extra
+    attributes:
+      label: Anything else
+      description: Error text, or a screenshot with private details blacked out.
+  - type: checkboxes
+    id: clean
+    attributes:
+      label: Nothing private is included
+      options:
+        - label: I removed passwords, API keys, tokens, server names, host names, IP addresses and user names from this report and from everything I attached.
+          required: true

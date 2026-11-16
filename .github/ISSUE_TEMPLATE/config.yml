@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Report a security vulnerability (private)
+    url: https://github.com/baramundisoftware/ActionComposer/security/advisories/new
+    about: Do not open a public issue for a vulnerability. Use GitHub's private report instead. See SECURITY.md.
+  - name: Read the FAQ first
+    url: https://github.com/baramundisoftware/ActionComposer/blob/main/docs/FAQ.md
+    about: Answers to the common questions, and what each feature needs from your network.

@@ -38,7 +38,9 @@ What each feature needs, and which hosts to allow in a restricted network: [Requ
 
 ## Questions
 
-See the [FAQ](docs/FAQ.md).
+See the [FAQ](docs/FAQ.md). To report a problem or suggest a feature, open an issue and use its form; do not paste API keys or server names.
+
+To report a security vulnerability, do not open an issue: follow the [security policy](SECURITY.md).
 
 ## Source code
 
